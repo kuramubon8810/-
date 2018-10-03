@@ -1,0 +1,130 @@
+table {
+    background-color: #EAC669;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: solid black 2px;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+}
+
+td{
+    border: solid black 2px;
+}
+
+th {
+    color: black;
+    border: solid black 2px;
+}
+
+img {
+    width: 60px;
+    height: 60px;
+    vertical-align: bottom;
+}
+
+.default {
+    background-color: #EAC669;
+}
+
+.no_piece_color {
+    background-color: #FFE689;
+}
+
+.ally_piece_color {
+    background-color: #BA9639;
+}
+
+.enemy_piece_color {
+    background-color: #FFE689;
+}
+
+.cant_put_by_rules_color{
+    background-color: #BA9639;
+}
+
+#white_piece_table {
+    position: absolute;
+    top: 445px;
+    left: 620px;
+    background-color: #EAC669;
+}
+
+#black_piece_table {
+    position: absolute;
+    top: 95px;
+    left: 620px;
+    background-color: #EAC669;
+}
+
+#white_turn_display{
+    position: absolute;
+    top:245px;
+    left:620px;
+    width: 194px;
+    height: 65px;
+    font-size: 50px;
+    line-height: 65px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#black_turn_display{
+    position: absolute;
+    top:320px;
+    left:620px;
+    width: 194px;
+    height: 65px;
+    font-size: 50px;
+    line-height: 65px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#record_of_game_index{
+    position: absolute;
+    overflow: scroll;
+    top: 75px;
+    left: 830px;
+    height: 580px;
+    width: 200px;
+}
+
+#black_piece_table td{
+    position: relative;
+}
+
+#white_piece_table td{
+    position: relative;
+}
+
+#black_piece_table p{
+    position: absolute;
+    top: 28px;
+    left:50px;
+}
+
+#white_piece_table p{
+    position: absolute;
+    top: 28px;
+    left:50px;
+}
+
+.enemy{
+    transform: rotate(180deg); 
+}
+
+#next_game_button{
+    position: absolute;
+    top: 650px;
+    left: 620px;
+    font-size: 30px;
+    width: 194px;
+    height: 50px;
+    color: blue;
+    border:solid;
+    border-color:black;
+    display: none;
+}
